@@ -1,5 +1,5 @@
 # Numerical Solution Math Problem
-Saw a video discussing how to solve an Olympiad math problem, namely,
+Saw a [video](https://youtu.be/SE700Lc_9pE) discussing how to solve an Olympiad math problem, namely,
 
 $$3^{m} - 2^m = 65.$$
 
