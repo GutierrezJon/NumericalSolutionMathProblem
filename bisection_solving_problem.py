@@ -62,8 +62,9 @@ def main():
     elapsed_time, (root, curr_iter)  = bisection(f,a,b,tol,max_iter)
 
     with open("output.txt", "w") as g:
-        g.write(f"Solution: m = {root} for a tolerance of {tol}. \n Converged \
-                in {curr_iter} iterations.\n Time elapsed = {elapsed_time} seconds.")
+        g.write(f"Solution: m = {root} for a tolerance of {tol}.\n"
+        f"Converged in {curr_iter} iterations.\n"
+        f"Time elapsed = {elapsed_time} seconds.")
 
 
 if __name__ == "__main__":
